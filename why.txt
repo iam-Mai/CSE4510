@@ -1,0 +1,11 @@
+/*
+ * Author:  Sasithorn Hannarongt, shannarong2015@fit.edu
+ * Course:  CSE 4051, Fall 2017
+ * Assignment: Why functional programming matter?
+ */
+
+Functional programming has a different paradigm from an imperative language. It is a form of declarative programming and uses a pure functional method to solve problems. Although we are more familiar with an imperative language, like C and Java, an imperative language still have many of limitations while functional programming can get rid of these boundaries. 
+
+By using imperative language, programmers can use many arguments and mostly focus on the change of state, history of data, sequences of code (have to be in order). These factors make imperative language easy to understand but also make the code hard to maintain, test or debug and decrease modularity of the code. On the other hand, functional programming doesn’t care about state or order of code. It focuses on the relationship of data (or “function” in Math) and looking at what transformations or method are required. The functional programming has lazy evaluation which delays the evaluation of an expression until its value is needed and avoid repeating evaluation. It also uses higher-order functions, such as recursion, to support programmer to construct and manipulate data. 
+
+Therefore, functional languages have high modularity because of the lazy evaluation and higher-order functions. Also, writing code in functional languages can increase maintainability, testability and debug because pure functions have specific arguments and tasks and can be tested separately. Therefore, if modularity, maintainability, and testability are important, functional programming matters.
